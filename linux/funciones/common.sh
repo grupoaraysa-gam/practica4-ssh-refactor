@@ -60,7 +60,7 @@ validar_ip() {
 
 # Función para mostrar mensajes de éxito
 mostrar_exito() {
-    echo -e "${GREEN}✅ $1${NC}"
+    echo -e "${GREEN} $1${NC}"
 }
 
 # Función para mostrar mensajes de error
@@ -128,12 +128,12 @@ validar_ip() {
 
 # Función para mostrar mensajes de éxito
 mostrar_exito() {
-    echo -e "${GREEN}✅ $1${NC}"
+    echo -e "${GREEN} $1${NC}"
 }
 
 # Función para mostrar mensajes de error
 mostrar_error() {
-    echo -e "${RED}❌ $1${NC}"
+    echo -e "${RED} $1${NC}"
 }
 EOF $1${NC}"
 }
